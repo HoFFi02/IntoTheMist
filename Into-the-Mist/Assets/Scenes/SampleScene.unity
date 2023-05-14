@@ -732,8 +732,13 @@ MonoBehaviour:
   dialogue:
   - Did you hear Dattadri?
   - Yes, I heard about it.
-  - What should I do know?
-  - I think you know what you should do Chase.
+  - What should I do?
+  - 'I think you know what you should do Chase. And remember, in the world there
+    are forces more powerful than you. '
+  - Okay, I will try not to forget that. Thanks.
+  - "You\u2019re welcome, we will pray for you. "
+  - Thanks, and me for you. Bye Dattadri!
+  - Bye Chase!
   contButton: {fileID: 740385628}
   wordSpeed: 0.06
   playerIsClose: 0
