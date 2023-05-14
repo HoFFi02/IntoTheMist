@@ -730,8 +730,10 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1235429}
   dialogueText: {fileID: 1290304510}
   dialogue:
-  - Hello!
-  - Essa
+  - Did you hear Dattadri?
+  - Yes, I heard about it.
+  - What should I do know?
+  - I think you know what you should do Chase.
   contButton: {fileID: 740385628}
   wordSpeed: 0.06
   playerIsClose: 0
