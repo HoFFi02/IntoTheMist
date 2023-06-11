@@ -97049,9 +97049,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1643537553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec95a6bab371d4df8ae9793596b38707, type: 3}
+  m_Script: {fileID: 11500000, guid: abac7b7623f5e4547a9a70286fe3ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NazwaSceny: DarkForest
 --- !u!61 &1643537555
 BoxCollider2D:
   m_ObjectHideFlags: 0
