@@ -15193,6 +15193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 157340803}
   - component: {fileID: 157340802}
+  - component: {fileID: 157340804}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (24)
   m_TagString: Untagged
@@ -15267,6 +15268,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1556
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &157340804
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157340801}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.022918701, y: -0.05959007}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0440979, y: 0.044098347}
+  m_EdgeRadius: 0
 --- !u!1 &157466748
 GameObject:
   m_ObjectHideFlags: 0
@@ -19454,6 +19481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 197103567}
   - component: {fileID: 197103566}
+  - component: {fileID: 197103568}
   m_Layer: 0
   m_Name: drzewosc21.png (587)
   m_TagString: Untagged
@@ -19528,6 +19556,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 949
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &197103568
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197103565}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019682407, y: -0.05904758}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.049521446, y: 0.049523115}
+  m_EdgeRadius: 0
 --- !u!1 &197832644
 GameObject:
   m_ObjectHideFlags: 0
@@ -21050,6 +21104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212160030}
   - component: {fileID: 212160029}
+  - component: {fileID: 212160031}
   m_Layer: 0
   m_Name: drzewosc21.png (870)
   m_TagString: Untagged
@@ -21124,6 +21179,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1377
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &212160031
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212160028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.026087105, y: -0.08015847}
+  - {x: 1.6735897, y: -0.6869776}
+  - {x: 2.3524017, y: -0.93663967}
+  - {x: 2.6356812, y: -1.3256377}
+  - {x: 2.8755188, y: -1.5275564}
+  - {x: 3.1010437, y: -1.371151}
+  - {x: 3.638359, y: -1.6383151}
+  - {x: 4.1658516, y: -1.7446339}
+  - {x: 4.457016, y: -1.7799343}
+  - {x: 4.7275124, y: -1.8171165}
+  - {x: 4.9745865, y: -1.8240604}
+  - {x: 5.2153397, y: -1.9036164}
+  - {x: 5.4257164, y: -2.023087}
+  - {x: 5.940155, y: -2.085126}
+  - {x: 6.167591, y: -2.3304694}
+  - {x: 6.807743, y: -2.6756036}
+  - {x: 7.200325, y: -2.7868648}
+  - {x: 7.408489, y: -2.959033}
+  - {x: 7.6903267, y: -3.072142}
+  - {x: 7.922512, y: -2.7777123}
+  - {x: 7.990959, y: -3.35961}
+  - {x: 8.447163, y: -2.8995988}
+  - {x: 8.664108, y: -2.8233216}
+  - {x: 8.731899, y: -3.2036407}
+  - {x: 8.993874, y: -3.2614892}
+  - {x: 9.291203, y: -3.0534117}
+  - {x: 9.531534, y: -3.106138}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &213036434
 GameObject:
   m_ObjectHideFlags: 0
@@ -21554,6 +21656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215331653}
   - component: {fileID: 215331652}
+  - component: {fileID: 215331654}
   m_Layer: 0
   m_Name: drzewosc22.png (337)
   m_TagString: Untagged
@@ -21628,6 +21731,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 917
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &215331654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215331651}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.30802584, y: -0.08717717}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6516237, y: 0.047195464}
+  m_EdgeRadius: 0
 --- !u!1 &215557330
 GameObject:
   m_ObjectHideFlags: 0
@@ -22253,6 +22382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223421741}
   - component: {fileID: 223421740}
+  - component: {fileID: 223421742}
   m_Layer: 0
   m_Name: drzewosc21.png (557)
   m_TagString: Untagged
@@ -22327,6 +22457,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 900
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &223421742
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223421739}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.012528896, y: -0.07655007}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0385828, y: 0.047569394}
+  m_EdgeRadius: 0
 --- !u!1 &223508011
 GameObject:
   m_ObjectHideFlags: 0
@@ -25808,6 +25964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 253033201}
   - component: {fileID: 253033200}
+  - component: {fileID: 253033202}
   m_Layer: 0
   m_Name: drzewosc21.png (867)
   m_TagString: Untagged
@@ -25882,6 +26039,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1374
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &253033202
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253033199}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.016698837, y: -0.08015835}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.045490265, y: 0.038811922}
+  m_EdgeRadius: 0
 --- !u!1 &257383385
 GameObject:
   m_ObjectHideFlags: 0
@@ -27236,6 +27419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267608114}
   - component: {fileID: 267608113}
+  - component: {fileID: 267608115}
   m_Layer: 0
   m_Name: drzewosc21.png (1025)
   m_TagString: Untagged
@@ -27310,6 +27494,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1706
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &267608115
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267608112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.050131142, y: -0.058667183}
+  - {x: 3.0191689, y: -0.07251358}
+  - {x: 3.2482033, y: -0.21912241}
+  - {x: 3.5542336, y: -0.3384452}
+  - {x: 4.0856857, y: -0.41293955}
+  - {x: 4.352434, y: -0.46698904}
+  - {x: 4.863888, y: -0.54231644}
+  - {x: 5.130064, y: -0.62145734}
+  - {x: 5.3641624, y: -0.6339116}
+  - {x: 5.87735, y: -0.7791064}
+  - {x: 6.104471, y: -0.81274414}
+  - {x: 7.1505585, y: -1.1212492}
+  - {x: 7.6390343, y: -1.3481638}
+  - {x: 7.8770523, y: -1.4629703}
+  - {x: 8.855377, y: -1.8409472}
+  - {x: 9.42828, y: -2.0410588}
+  - {x: 10.403908, y: -2.30005}
+  - {x: 10.931881, y: -2.3633935}
+  - {x: 11.477867, y: -2.5220513}
+  - {x: 11.731834, y: -2.6089869}
+  - {x: 12.399456, y: -2.6826303}
+  - {x: 12.662773, y: -2.4590616}
+  - {x: 12.816669, y: -2.7799106}
+  - {x: 12.96751, y: -2.529165}
+  - {x: 13.129971, y: -2.818145}
+  - {x: 13.415817, y: -2.6183832}
+  - {x: 13.603218, y: -2.9937148}
+  - {x: 13.854256, y: -3.2218637}
+  - {x: 14.109795, y: -3.3450863}
+  - {x: 14.345905, y: -3.0349483}
+  - {x: 14.498619, y: -2.7500117}
+  - {x: 14.770184, y: -2.8137252}
+  - {x: 14.962864, y: -3.0960646}
+  - {x: 15.271624, y: -3.2382305}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &268494679
 GameObject:
   m_ObjectHideFlags: 0
@@ -30428,6 +30666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307902695}
   - component: {fileID: 307902694}
+  - component: {fileID: 307902696}
   m_Layer: 0
   m_Name: drzewosc21.png (584)
   m_TagString: Untagged
@@ -30502,6 +30741,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 944
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &307902696
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307902693}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019682884, y: -0.03441957}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0495224, y: 0.039731912}
+  m_EdgeRadius: 0
 --- !u!1 &308700916
 GameObject:
   m_ObjectHideFlags: 0
@@ -33953,6 +34218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352681580}
   - component: {fileID: 352681579}
+  - component: {fileID: 352681581}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (13)
   m_TagString: Untagged
@@ -34027,6 +34293,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1545
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &352681581
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352681578}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013750076, y: -0.07334171}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.044094086, y: 0.034930855}
+  m_EdgeRadius: 0
 --- !u!1 &352857362
 GameObject:
   m_ObjectHideFlags: 0
@@ -34121,6 +34413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354911083}
   - component: {fileID: 354911082}
+  - component: {fileID: 354911084}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (28)
   m_TagString: Untagged
@@ -34195,6 +34488,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1562
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &354911084
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354911081}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.044971764, y: -0.09167707}
+  - {x: 0.38368988, y: -0.5751378}
+  - {x: 0.58301544, y: -0.3433897}
+  - {x: 0.6922188, y: -0.57279944}
+  - {x: 0.9787102, y: -0.49355644}
+  - {x: 1.2374573, y: -0.57554424}
+  - {x: 1.4048424, y: -0.6408956}
+  - {x: 1.6582413, y: -0.85603845}
+  - {x: 1.9590416, y: -0.9926885}
+  - {x: 2.357563, y: -1.1640079}
+  - {x: 2.6628761, y: -1.3526504}
+  - {x: 2.880371, y: -1.7128251}
+  - {x: 3.257347, y: -1.7673936}
+  - {x: 3.5336952, y: -1.993963}
+  - {x: 3.7326355, y: -2.2617407}
+  - {x: 3.9504168, y: -2.5944636}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &355484371
 GameObject:
   m_ObjectHideFlags: 0
@@ -38012,6 +38341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391481394}
   - component: {fileID: 391481393}
+  - component: {fileID: 391481395}
   m_Layer: 0
   m_Name: drzewosc21.png (734)
   m_TagString: Untagged
@@ -38086,6 +38416,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1180
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &391481395
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391481392}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.016724791, y: -0.08015847}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.045542173, y: 0.038811684}
+  m_EdgeRadius: 0
 --- !u!1 &393216584
 GameObject:
   m_ObjectHideFlags: 0
@@ -40280,6 +40636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 414366341}
   - component: {fileID: 414366340}
+  - component: {fileID: 414366342}
   m_Layer: 0
   m_Name: drzewosc22.png (292)
   m_TagString: Untagged
@@ -40354,6 +40711,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 770
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &414366342
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414366339}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014762402, y: -0.11317468}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.059363365, y: 0.059364796}
+  m_EdgeRadius: 0
 --- !u!1 &414870945
 GameObject:
   m_ObjectHideFlags: 0
@@ -44423,6 +44806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465916392}
   - component: {fileID: 465916391}
+  - component: {fileID: 465916393}
   m_Layer: 0
   m_Name: drzewosc22.png (332)
   m_TagString: Untagged
@@ -44497,6 +44881,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 896
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &465916393
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465916390}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623383, y: -0.1104244}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08206558, y: 0.07044244}
+  m_EdgeRadius: 0
 --- !u!1 &466835743
 GameObject:
   m_ObjectHideFlags: 0
@@ -48287,6 +48697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508923454}
   - component: {fileID: 508923453}
+  - component: {fileID: 508923455}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (7)
   m_TagString: Untagged
@@ -48361,6 +48772,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 940
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &508923455
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508923452}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.48834705, y: -0.008796215}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0289497, y: 0.059445858}
+  m_EdgeRadius: 0
 --- !u!1 &510846910
 GameObject:
   m_ObjectHideFlags: 0
@@ -55814,6 +56251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 595717015}
   - component: {fileID: 595717014}
+  - component: {fileID: 595717016}
   m_Layer: 0
   m_Name: drzewosc21.png (564)
   m_TagString: Untagged
@@ -55888,6 +56326,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 910
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &595717016
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595717013}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017435074, y: -0.023247361}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0704422, y: 0.058819056}
+  m_EdgeRadius: 0
 --- !u!1 &595894713
 GameObject:
   m_ObjectHideFlags: 0
@@ -65162,6 +65626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694653121}
   - component: {fileID: 694653120}
+  - component: {fileID: 694653122}
   m_Layer: 0
   m_Name: drzewosc21.png (866)
   m_TagString: Untagged
@@ -65236,6 +65701,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1373
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &694653122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694653119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.016698837, y: -0.07681835}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.032131195, y: 0.03213191}
+  m_EdgeRadius: 0
 --- !u!1 &695188279
 GameObject:
   m_ObjectHideFlags: 0
@@ -66674,6 +67165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705851474}
   - component: {fileID: 705851473}
+  - component: {fileID: 705851475}
   m_Layer: 0
   m_Name: drzewosc22.png (291)
   m_TagString: Untagged
@@ -66748,6 +67240,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 769
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &705851475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705851472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019682407, y: -0.12301588}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.069205284, y: 0.03968191}
+  m_EdgeRadius: 0
 --- !u!1 &706613807
 GameObject:
   m_ObjectHideFlags: 0
@@ -73643,6 +74161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787494988}
   - component: {fileID: 787494987}
+  - component: {fileID: 787494989}
   m_Layer: 0
   m_Name: drzewosc21.png (983)
   m_TagString: Untagged
@@ -73717,6 +74236,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1529
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &787494989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787494986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013751984, y: -0.07792568}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0440979, y: 0.044098318}
+  m_EdgeRadius: 0
 --- !u!1 &788375488
 GameObject:
   m_ObjectHideFlags: 0
@@ -75155,6 +75700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798065272}
   - component: {fileID: 798065271}
+  - component: {fileID: 798065273}
   m_Layer: 0
   m_Name: drzewosc21.png (588)
   m_TagString: Untagged
@@ -75229,6 +75775,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 950
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &798065273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798065270}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019682884, y: -0.06396842}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0495224, y: 0.059364557}
+  m_EdgeRadius: 0
 --- !u!1 &798912792
 GameObject:
   m_ObjectHideFlags: 0
@@ -77423,6 +77995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 813674767}
   - component: {fileID: 813674766}
+  - component: {fileID: 813674768}
   m_Layer: 0
   m_Name: drzewosc21.png (580)
   m_TagString: Untagged
@@ -77497,6 +78070,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 939
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &813674768
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813674765}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017460074, y: -0.069741726}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.02399867, y: 0.058818817}
+  m_EdgeRadius: 0
 --- !u!1 &814341797
 GameObject:
   m_ObjectHideFlags: 0
@@ -82994,6 +83593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872462856}
   - component: {fileID: 872462855}
+  - component: {fileID: 872462857}
   m_Layer: 0
   m_Name: drzewosc21.png (568)
   m_TagString: Untagged
@@ -83068,6 +83668,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 915
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &872462857
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872462854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02905941, y: -0.05230628}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0704422, y: 0.07044259}
+  m_EdgeRadius: 0
 --- !u!1 &873364745
 GameObject:
   m_ObjectHideFlags: 0
@@ -87305,6 +87931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924575874}
   - component: {fileID: 924575873}
+  - component: {fileID: 924575875}
   m_Layer: 0
   m_Name: drzewosc21.png (733)
   m_TagString: Untagged
@@ -87379,6 +88006,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1179
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &924575875
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924575872}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.01335907, y: -0.09017813}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.03881073, y: 0.03213191}
+  m_EdgeRadius: 0
 --- !u!1 &925536452
 GameObject:
   m_ObjectHideFlags: 0
@@ -90944,6 +91597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966862831}
   - component: {fileID: 966862830}
+  - component: {fileID: 966862832}
   m_Layer: 0
   m_Name: drzewosc21.png (940)
   m_TagString: Untagged
@@ -91018,6 +91672,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1474
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &966862832
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966862829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013750076, y: -0.06873292}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.044094086, y: 0.062483847}
+  m_EdgeRadius: 0
 --- !u!1 &969171119
 GameObject:
   m_ObjectHideFlags: 0
@@ -96290,6 +96970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018740812}
   - component: {fileID: 1018740811}
+  - component: {fileID: 1018740813}
   m_Layer: 0
   m_Name: drzewosc21.png (582)
   m_TagString: Untagged
@@ -96364,6 +97045,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 942
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1018740813
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018740810}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.05851412}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.0548563}
+  m_EdgeRadius: 0
 --- !u!1 &1019597909
 GameObject:
   m_ObjectHideFlags: 0
@@ -98135,6 +98842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039255456}
   - component: {fileID: 1039255455}
+  - component: {fileID: 1039255457}
   m_Layer: 0
   m_Name: drzewosc21.png (565)
   m_TagString: Untagged
@@ -98209,6 +98917,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 912
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1039255457
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039255454}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.13948298, y: -0.05230634}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3842802, y: 0.07044271}
+  m_EdgeRadius: 0
 --- !u!1 &1040779349
 GameObject:
   m_ObjectHideFlags: 0
@@ -98891,6 +99625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049433037}
   - component: {fileID: 1049433036}
+  - component: {fileID: 1049433038}
   m_Layer: 0
   m_Name: drzewosc21.png (961)
   m_TagString: Untagged
@@ -98965,6 +99700,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1501
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1049433038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049433035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009193625, y: -0.07792556}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.05331462, y: 0.062433958}
+  m_EdgeRadius: 0
 --- !u!1 &1049980085
 GameObject:
   m_ObjectHideFlags: 0
@@ -104015,6 +104776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099930359}
   - component: {fileID: 1099930358}
+  - component: {fileID: 1099930360}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (12)
   m_TagString: Untagged
@@ -104089,6 +104851,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1544
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1099930360
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099930357}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013751984, y: -0.07792559}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0440979, y: 0.044098556}
+  m_EdgeRadius: 0
 --- !u!1 &1099954489
 GameObject:
   m_ObjectHideFlags: 0
@@ -111730,7 +112518,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 981c284cb11ae43799a2b31c33b6afca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -112271,6 +113059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1188842205}
   - component: {fileID: 1188842204}
+  - component: {fileID: 1188842206}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (12)
   m_TagString: Untagged
@@ -112345,6 +113134,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 953
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1188842206
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188842203}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009840965, y: -0.1279366}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.06920433, y: 0.049523234}
+  m_EdgeRadius: 0
 --- !u!1 &1189425035
 GameObject:
   m_ObjectHideFlags: 0
@@ -112886,6 +113701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193233085}
   - component: {fileID: 1193233084}
+  - component: {fileID: 1193233086}
   m_Layer: 0
   m_Name: drzewosc22.png (333)
   m_TagString: Untagged
@@ -112960,6 +113776,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 901
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1193233086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193233083}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0058116913, y: -0.12204802}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0704422, y: 0.07044244}
+  m_EdgeRadius: 0
 --- !u!1 &1193411771
 GameObject:
   m_ObjectHideFlags: 0
@@ -120650,6 +121492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1275949717}
   - component: {fileID: 1275949716}
+  - component: {fileID: 1275949718}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (8)
   m_TagString: Untagged
@@ -120724,6 +121567,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 946
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1275949718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275949715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014761925, y: -0.108254075}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.05936432, y: 0.049523115}
+  m_EdgeRadius: 0
 --- !u!1 &1275996339
 GameObject:
   m_ObjectHideFlags: 0
@@ -121322,6 +122191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283938025}
   - component: {fileID: 1283938024}
+  - component: {fileID: 1283938026}
   m_Layer: 0
   m_Name: drzewosc21.png (603)
   m_TagString: Untagged
@@ -121396,6 +122266,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 980
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1283938026
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283938023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009841442, y: -0.0442857}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.049523354, y: 0.03968218}
+  m_EdgeRadius: 0
 --- !u!1 &1284742601
 GameObject:
   m_ObjectHideFlags: 0
@@ -123617,6 +124513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303201660}
   - component: {fileID: 1303201659}
+  - component: {fileID: 1303201661}
   m_Layer: 0
   m_Name: drzewosc22.png (335)
   m_TagString: Untagged
@@ -123691,6 +124588,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 906
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1303201661
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303201658}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623859, y: -0.11623627}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08206463, y: 0.058818698}
+  m_EdgeRadius: 0
 --- !u!1 &1303407911
 GameObject:
   m_ObjectHideFlags: 0
@@ -125576,6 +126499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1322072924}
   - component: {fileID: 1322072923}
+  - component: {fileID: 1322072925}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (10)
   m_TagString: Untagged
@@ -125650,6 +126574,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 951
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1322072925
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322072922}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019682407, y: -0.14269847}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.069205284, y: 0.039681792}
+  m_EdgeRadius: 0
 --- !u!1 &1322241198
 GameObject:
   m_ObjectHideFlags: 0
@@ -129998,6 +130948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1374689856}
   - component: {fileID: 1374689855}
+  - component: {fileID: 1374689857}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (15)
   m_TagString: Untagged
@@ -130072,6 +131023,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 978
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1374689857
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374689854}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008618832, y: -0.15083413}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.053902626, y: 0.06252101}
+  m_EdgeRadius: 0
 --- !u!1 &1379835192
 GameObject:
   m_ObjectHideFlags: 0
@@ -142505,6 +143482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506794859}
   - component: {fileID: 1506794858}
+  - component: {fileID: 1506794860}
   m_Layer: 0
   m_Name: drzewosc21.png (868)
   m_TagString: Untagged
@@ -142579,6 +143557,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1375
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1506794860
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506794857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020038605, y: -0.07011369}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.03881073, y: 0.032182157}
+  m_EdgeRadius: 0
 --- !u!1 &1507201468
 GameObject:
   m_ObjectHideFlags: 0
@@ -144557,6 +145561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522738288}
   - component: {fileID: 1522738287}
+  - component: {fileID: 1522738289}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (11)
   m_TagString: Untagged
@@ -144631,6 +145636,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 952
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1522738289
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522738286}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014761925, y: -0.13285714}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.05936432, y: 0.059364438}
+  m_EdgeRadius: 0
 --- !u!1 &1523088332
 GameObject:
   m_ObjectHideFlags: 0
@@ -144893,6 +145924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525618185}
   - component: {fileID: 1525618184}
+  - component: {fileID: 1525618186}
   m_Layer: 0
   m_Name: drzewosc21.png (563)
   m_TagString: Untagged
@@ -144967,6 +145999,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 909
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1525618186
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525618183}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.19269323, y: -0.049598157}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.46140575, y: 0.055843234}
+  m_EdgeRadius: 0
 --- !u!1 &1530020137
 GameObject:
   m_ObjectHideFlags: 0
@@ -149315,6 +150373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568662527}
   - component: {fileID: 1568662526}
+  - component: {fileID: 1568662528}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (16)
   m_TagString: Untagged
@@ -149389,6 +150448,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 979
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1568662528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568662525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014761925, y: -0.12793654}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.03968239, y: 0.049523503}
+  m_EdgeRadius: 0
 --- !u!1 &1568826198
 GameObject:
   m_ObjectHideFlags: 0
@@ -156089,6 +157174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641858457}
   - component: {fileID: 1641858456}
+  - component: {fileID: 1641858458}
   m_Layer: 0
   m_Name: drzewosc21.png (561)
   m_TagString: Untagged
@@ -156163,6 +157249,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 907
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1641858458
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641858455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623859, y: -0.063929796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.082066536, y: 0.070442915}
+  m_EdgeRadius: 0
 --- !u!1 &1642132293
 GameObject:
   m_ObjectHideFlags: 0
@@ -167507,6 +168619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760727815}
   - component: {fileID: 1760727814}
+  - component: {fileID: 1760727816}
   m_Layer: 0
   m_Name: drzewosc21.png (569)
   m_TagString: Untagged
@@ -167581,6 +168694,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 916
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1760727816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760727813}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.020821095, y: -0.0677191}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.0708971, y: 0.08319771}
+  m_EdgeRadius: 0
 --- !u!1 &1761822955
 GameObject:
   m_ObjectHideFlags: 0
@@ -168011,6 +169150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771173877}
   - component: {fileID: 1771173876}
+  - component: {fileID: 1771173878}
   m_Layer: 0
   m_Name: drzewosc21.png (562)
   m_TagString: Untagged
@@ -168085,6 +169225,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 908
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1771173878
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771173875}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623859, y: -0.07555354}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08206463, y: 0.07044244}
+  m_EdgeRadius: 0
 --- !u!1 &1773872330
 GameObject:
   m_ObjectHideFlags: 0
@@ -176583,6 +177749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867530216}
   - component: {fileID: 1867530215}
+  - component: {fileID: 1867530217}
   m_Layer: 0
   m_Name: drzewosc21.png (560)
   m_TagString: Untagged
@@ -176657,6 +177824,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 905
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1867530217
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867530214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623859, y: -0.058118165}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.058817863, y: 0.058818936}
+  m_EdgeRadius: 0
 --- !u!1 &1868308085
 GameObject:
   m_ObjectHideFlags: 0
@@ -177003,6 +178196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869589233}
   - component: {fileID: 1869589232}
+  - component: {fileID: 1869589234}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (99)
   m_TagString: Untagged
@@ -177077,6 +178271,61 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1860
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1869589234
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869589231}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.06279403, y: -0.071445465}
+  - {x: 1.3452988, y: -0.39767635}
+  - {x: 1.6485748, y: -0.39899194}
+  - {x: 2.1132317, y: -0.62672806}
+  - {x: 2.6324883, y: -0.94864345}
+  - {x: 2.8556023, y: -0.60447514}
+  - {x: 3.0101814, y: -0.33487165}
+  - {x: 3.2733269, y: -0.41491544}
+  - {x: 3.477436, y: -0.66545296}
+  - {x: 3.7647247, y: -0.82591605}
+  - {x: 4.083065, y: -0.926689}
+  - {x: 4.3676033, y: -0.7841265}
+  - {x: 4.6946564, y: -0.7690096}
+  - {x: 4.9144096, y: -1.0453975}
+  - {x: 5.13739, y: -0.76659346}
+  - {x: 5.3409576, y: -0.9898566}
+  - {x: 5.500248, y: -0.66171753}
+  - {x: 5.68314, y: -0.94479907}
+  - {x: 5.872181, y: -0.6740016}
+  - {x: 6.014511, y: -1.102317}
+  - {x: 6.1723213, y: -0.7703599}
+  - {x: 6.26334, y: -1.2515186}
+  - {x: 6.5186996, y: -1.3123393}
+  - {x: 6.79554, y: -1.4407638}
+  - {x: 7.02697, y: -1.6409398}
+  - {x: 7.2283096, y: -1.7810885}
+  - {x: 7.462887, y: -1.8922334}
+  - {x: 7.681259, y: -2.0238614}
+  - {x: 7.922699, y: -2.1438315}
+  - {x: 8.131985, y: -2.3319886}
+  - {x: 8.352875, y: -2.5083659}
+  - {x: 8.581329, y: -2.6782541}
+  - {x: 8.824387, y: -2.790887}
+  - {x: 9.036648, y: -2.9436562}
+  - {x: 9.301674, y: -3.0961306}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1870170106
 GameObject:
   m_ObjectHideFlags: 0
@@ -177423,6 +178672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1873600292}
   - component: {fileID: 1873600291}
+  - component: {fileID: 1873600293}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (9)
   m_TagString: Untagged
@@ -177497,6 +178747,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 947
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1873600293
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873600290}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014761925, y: -0.14269853}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.05936432, y: 0.05936432}
+  m_EdgeRadius: 0
 --- !u!1 &1874551664
 GameObject:
   m_ObjectHideFlags: 0
@@ -180558,6 +181834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1909105732}
   - component: {fileID: 1909105731}
+  - component: {fileID: 1909105733}
   m_Layer: 0
   m_Name: drzewosc21.png (604)
   m_TagString: Untagged
@@ -180632,6 +181909,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 981
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1909105733
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909105730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.054285347, y: -0.09841269}
+  - {x: 1.1761665, y: 0.6582748}
+  - {x: 2.6604347, y: 0.60649145}
+  - {x: 2.9333954, y: 0.4174105}
+  - {x: 3.8014812, y: 0.7046788}
+  - {x: 4.01054, y: 1.077159}
+  - {x: 4.1586685, y: 0.89550984}
+  - {x: 5.234766, y: 1.706222}
+  - {x: 5.4632854, y: 1.6334931}
+  - {x: 5.9708023, y: 2.427604}
+  - {x: 6.3129025, y: 2.4514074}
+  - {x: 7.444912, y: 3.5721338}
+  - {x: 7.845949, y: 3.4441452}
+  - {x: 8.111683, y: 3.54171}
+  - {x: 10.860007, y: 3.3558753}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1909882254
 GameObject:
   m_ObjectHideFlags: 0
@@ -410688,6 +412000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998030111}
   - component: {fileID: 1998030110}
+  - component: {fileID: 1998030112}
   m_Layer: 0
   m_Name: drzewoooociemnylas.png (136)
   m_TagString: Untagged
@@ -410762,6 +412075,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1966
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1998030112
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998030109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.04496795, y: -0.055006266}
+  - {x: 0.23195648, y: -0.1511265}
+  - {x: 0.48740387, y: -0.24227875}
+  - {x: 1.4154358, y: -0.84041977}
+  - {x: 1.8944283, y: -1.0935462}
+  - {x: 2.097538, y: -1.2699906}
+  - {x: 2.33358, y: -1.4616686}
+  - {x: 2.5435944, y: -1.6187989}
+  - {x: 2.7857132, y: -1.7223132}
+  - {x: 3.0038757, y: -1.9140911}
+  - {x: 3.2628367, y: -2.035233}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1998153503
 GameObject:
   m_ObjectHideFlags: 0
@@ -412032,6 +413376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010303994}
   - component: {fileID: 2010303993}
+  - component: {fileID: 2010303995}
   m_Layer: 0
   m_Name: drzewosc22.png - Copy (13)
   m_TagString: Untagged
@@ -412106,6 +413451,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 954
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2010303995
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010303992}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0049204826, y: -0.1426985}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.059363365, y: 0.059364736}
+  m_EdgeRadius: 0
 --- !u!1 &2011084168
 GameObject:
   m_ObjectHideFlags: 0
@@ -412620,6 +413991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2014649906}
   - component: {fileID: 2014649905}
+  - component: {fileID: 2014649907}
   m_Layer: 0
   m_Name: drzewosc21.png (869)
   m_TagString: Untagged
@@ -412694,6 +414066,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1376
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2014649907
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014649904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0133600235, y: -0.10019803}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.038812637, y: 0.03881216}
+  m_EdgeRadius: 0
 --- !u!1 &2015016196
 GameObject:
   m_ObjectHideFlags: 0
@@ -414804,6 +416202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035543871}
   - component: {fileID: 2035543870}
+  - component: {fileID: 2035543872}
   m_Layer: 0
   m_Name: drzewosc21.png (865)
   m_TagString: Untagged
@@ -414878,6 +416277,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1372
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2035543872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035543869}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0133600235, y: -0.07013881}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.038812637, y: 0.03213191}
+  m_EdgeRadius: 0
 --- !u!1 &2036888727
 GameObject:
   m_ObjectHideFlags: 0
@@ -419199,6 +420624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083882609}
   - component: {fileID: 2083882608}
+  - component: {fileID: 2083882610}
   m_Layer: 0
   m_Name: drzewosc21.png (556)
   m_TagString: Untagged
@@ -419273,6 +420699,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 899
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2083882610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083882607}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011623383, y: -0.034870863}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08206558, y: 0.058818817}
+  m_EdgeRadius: 0
 --- !u!1 &2084466656
 GameObject:
   m_ObjectHideFlags: 0
@@ -420570,6 +422022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095910644}
   - component: {fileID: 2095910643}
+  - component: {fileID: 2095910645}
   m_Layer: 0
   m_Name: drzewosc21.png (589)
   m_TagString: Untagged
@@ -420644,6 +422097,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 955
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2095910645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095910642}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.009841442, y: -0.0885714}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.069205284, y: 0.06920594}
+  m_EdgeRadius: 0
 --- !u!1 &2096947691
 GameObject:
   m_ObjectHideFlags: 0
@@ -423836,6 +425315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141688808}
   - component: {fileID: 2141688807}
+  - component: {fileID: 2141688809}
   m_Layer: 0
   m_Name: drzewosc21.png (729)
   m_TagString: Untagged
@@ -423910,6 +425390,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1175
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2141688809
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141688806}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.03276664, y: -0.07347846}
+  - {x: 1.0309448, y: -0.36832523}
+  - {x: 1.0681441, y: -0.39411235}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &2142529413
 GameObject:
   m_ObjectHideFlags: 0
