@@ -3,22 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
     public string[] dialogue;
     private int index = 0;
+    
+
+    public string gameSceneName;
 
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
 
-    void Start()
+    private void Start()
     {
         dialogueText.text = "";
+        contButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,9 +42,9 @@ public class NPC : MonoBehaviour
             }
 
         }
-      
 
-        if (dialogueText.text == dialogue[index])
+
+        if (dialogueText.text.Equals(dialogue[index]))
         {
             contButton.SetActive(true);
         }
@@ -52,30 +57,43 @@ public class NPC : MonoBehaviour
         dialoguePanel.SetActive(false);
     }
 
-    IEnumerator Typing()
-    {
-        foreach (char letter in dialogue[index].ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(wordSpeed);
-        }
-    }
-
     public void NextLine()
     {
-        contButton.SetActive(false);
-
-        if (index < dialogue.Length - 1)
+        index++;
+        if (index < dialogue.Length)
         {
-            index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
         }
         else
         {
             zeroText();
+            SceneManager.LoadScene(gameSceneName);
         }
     }
+
+    private void ShowFullText()
+    {
+        dialogueText.text = dialogue[index];
+        contButton.SetActive(true);
+    }
+
+    private IEnumerator Typing()
+    {
+        string targetText = dialogue[index];
+        int textLength = targetText.Length;
+        int currentCharacter = 0;
+
+        while (currentCharacter <= textLength)
+        {
+            dialogueText.text = targetText.Substring(0, currentCharacter);
+            currentCharacter++;
+            yield return new WaitForSeconds(wordSpeed);
+        }
+
+        ShowFullText();
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -93,4 +111,6 @@ public class NPC : MonoBehaviour
             zeroText();
         }
     }
+
+    
 }

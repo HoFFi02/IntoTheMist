@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/DarkForest.unity
+    guid: b9e7351b7ffd044fe82350cc6089093c
+  - enabled: 1
+    path: Assets/Scenes/Memory.unity
+    guid: 9d8bead53dc650641a9eea710a4fe10a
+  - enabled: 1
+    path: Assets/Scenes/chata.unity
+    guid: d695c9cda89284ad298e0c725c42b79b
   m_configObjects: {}
