@@ -17,6 +17,7 @@ public class GameControllerScript : MonoBehaviour
     [SerializeField] private Sprite[] images;
 
     public string gameSceneName;
+    public GameObject gameOverPanel;
 
 
 
@@ -96,7 +97,7 @@ public class GameControllerScript : MonoBehaviour
         }
         else
         {
-            Restart();
+            gameOverPanel.SetActive(true);
         }
     }
 
