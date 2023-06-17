@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TextScroll : MonoBehaviour
+public class TScroll2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class TextScroll : MonoBehaviour
             }
         else if (Input.GetKey(KeyCode.Return))
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(1);
             }
     }
 
@@ -30,3 +30,4 @@ public class TextScroll : MonoBehaviour
 
     
 }
+
