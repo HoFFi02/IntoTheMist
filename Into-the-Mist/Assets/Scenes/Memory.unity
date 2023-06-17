@@ -422,6 +422,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d7ce1faf25fa50d4a8597b5bf9df0d99, type: 3}
   - {fileID: 21300000, guid: b723a0caf32aa994b8d3b02a5243fe9b, type: 3}
   - {fileID: 21300000, guid: a34a9a53fb1ccb24d960d3443f83fcfb, type: 3}
+  gameSceneName: DarkForest
   timerText: {fileID: 662674597}
   scoreText: {fileID: 377997614}
   attemptsText: {fileID: 1545981009}
@@ -612,8 +613,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662674596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -4, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -1, y: -4.5, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

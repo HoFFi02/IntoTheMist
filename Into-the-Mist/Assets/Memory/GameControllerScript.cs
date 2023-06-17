@@ -15,7 +15,9 @@ public class GameControllerScript : MonoBehaviour
 
     [SerializeField] private MainImageScript startObject;
     [SerializeField] private Sprite[] images;
-    
+
+    public string gameSceneName;
+
 
 
     private int[] Randomiser(int[] locations)
@@ -71,7 +73,7 @@ public class GameControllerScript : MonoBehaviour
 
     private IEnumerator StartTimer()
     {
-        float timer = 20f;
+        float timer = 40f;
         timerText = GameObject.Find("TimerText").GetComponent<TextMesh>();
 
         while (timer > 0)
@@ -90,11 +92,11 @@ public class GameControllerScript : MonoBehaviour
     {
         if (won)
         {
-            // Gracz wygra³ - mo¿esz umieœciæ tutaj odpowiednie dzia³ania
+            SceneManager.LoadScene(gameSceneName);
         }
         else
         {
-            // Przegrana - mo¿esz umieœciæ tutaj odpowiednie dzia³ania
+            Restart();
         }
     }
 
@@ -131,6 +133,10 @@ public class GameControllerScript : MonoBehaviour
         {
             score++; // Add score
             scoreText.text = "Score: " + score;
+            if (score == 8)
+            {
+                GameOver(true);
+            }
         }
         else
         {
@@ -154,7 +160,7 @@ public class GameControllerScript : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("Memory");
     }
 }
 
