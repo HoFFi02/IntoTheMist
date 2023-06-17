@@ -137339,7 +137339,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437002314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.4969, y: 3.8631, z: 0}
   m_LocalScale: {x: 0.65610605, y: 0.6400568, z: 1}
   m_ConstrainProportionsScale: 0
@@ -158336,6 +158336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startObject: {fileID: 0}
   images: []
+  gameSceneName: 
+  timerText: {fileID: 0}
   scoreText: {fileID: 0}
   attemptsText: {fileID: 0}
 --- !u!1 &1647000923
@@ -162968,6 +162970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693791765}
   - component: {fileID: 1693791764}
+  - component: {fileID: 1693791766}
   m_Layer: 0
   m_Name: drzewosc22.png (160)
   m_TagString: Untagged
@@ -163042,6 +163045,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 430
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693791766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693791763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bec33af67c44811aefe87fb49490fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1935348623}
 --- !u!1 &1694468425
 GameObject:
   m_ObjectHideFlags: 0
@@ -184657,11 +184673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1185818648922413061, guid: f4826114418c2874a8d3a87e04421eff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.93
+      value: -6.8
       objectReference: {fileID: 0}
     - target: {fileID: 1185818648922413061, guid: f4826114418c2874a8d3a87e04421eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.97
+      value: 3.58
       objectReference: {fileID: 0}
     - target: {fileID: 1185818648922413061, guid: f4826114418c2874a8d3a87e04421eff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -184701,6 +184717,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4826114418c2874a8d3a87e04421eff, type: 3}
+--- !u!1 &1935348623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2688130924638125674, guid: f4826114418c2874a8d3a87e04421eff, type: 3}
+  m_PrefabInstance: {fileID: 1935348622}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1935424938
 GameObject:
   m_ObjectHideFlags: 0
@@ -423828,6 +423849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startObject: {fileID: 0}
   images: []
+  gameSceneName: 
+  timerText: {fileID: 0}
   scoreText: {fileID: 0}
   attemptsText: {fileID: 0}
 --- !u!1 &2116639910

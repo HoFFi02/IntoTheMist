@@ -68,6 +68,8 @@ public class NPC : MonoBehaviour
         else
         {
             zeroText();
+            PlayerPrefs.SetFloat("Player x", -7f);
+            PlayerPrefs.SetFloat("Player y", 3.5f);
             SceneManager.LoadScene(gameSceneName);
         }
     }
