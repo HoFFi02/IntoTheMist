@@ -11,6 +11,9 @@ public class NPC : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
     private int index = 0;
+    
+
+    public string gameSceneName;
 
 
     public string gameSceneName;
@@ -111,6 +114,5 @@ public class NPC : MonoBehaviour
             zeroText();
         }
     }
-
 
 }
