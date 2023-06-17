@@ -16,7 +16,7 @@ public class NPC : MonoBehaviour
     public string gameSceneName;
 
 
-    public string gameSceneName;
+    
 
     public GameObject contButton;
     public float wordSpeed;
