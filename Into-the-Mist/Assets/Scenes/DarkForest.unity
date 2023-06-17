@@ -8780,10 +8780,10 @@ RectTransform:
   m_Father: {fileID: 216633868}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26, y: -331}
-  m_SizeDelta: {x: -503.9155, y: -826.1472}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 26, y: 209}
+  m_SizeDelta: {x: 1416.0845, y: 253.85278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95284968
 MonoBehaviour:
@@ -158337,6 +158337,7 @@ MonoBehaviour:
   startObject: {fileID: 0}
   images: []
   gameSceneName: 
+  gameOverPanel: {fileID: 0}
   timerText: {fileID: 0}
   scoreText: {fileID: 0}
   attemptsText: {fileID: 0}
@@ -423850,6 +423851,7 @@ MonoBehaviour:
   startObject: {fileID: 0}
   images: []
   gameSceneName: 
+  gameOverPanel: {fileID: 0}
   timerText: {fileID: 0}
   scoreText: {fileID: 0}
   attemptsText: {fileID: 0}
