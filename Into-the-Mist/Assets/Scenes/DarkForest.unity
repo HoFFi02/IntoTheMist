@@ -109055,7 +109055,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 308969314}
   dialogueText: {fileID: 657417229}
   dialogue:
-  - She wasn't so eager for games I guess
+  - She was quite nice..
   wordSpeed: 0.06
   displayTime: 5
 --- !u!61 &1123724872
@@ -179689,6 +179689,10 @@ MonoBehaviour:
   - Do you know, Baba Yaga, where do the snatched away children are taken to?
   - Go to my sister, maybe she has something to do with it. She lives far into the
     dark forest.
+  - 'If she wants to devour you, tell her to ask you a riddle. '
+  - If you answer correctly, you can do what you want, if not, well.. I guess it's
+    obvious..
+  - Thank you, Baba Yaga.
   gameSceneName: 
   contButton: {fileID: 1486098764}
   wordSpeed: 0.06
