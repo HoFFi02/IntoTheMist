@@ -413,21 +413,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   columns: 4
-  rows: 2
+  rows: 4
   Xspace: 4
-  Yspace: -5
+  Yspace: -2
   startObject: {fileID: 135808919}
   images:
   - {fileID: 21300000, guid: 9c35921393680ea42825476183e4778a, type: 3}
   - {fileID: 21300000, guid: 88c322e70680e964fb6369ae39f13757, type: 3}
   - {fileID: 21300000, guid: bf7935a8175a3e44596d7ecc2e8f511c, type: 3}
   - {fileID: 21300000, guid: c72846b3b000b044788511ee89365479, type: 3}
-  locations: 0000000000000000010000000100000002000000020000000300000003000000
+  - {fileID: 21300000, guid: d7ce1faf25fa50d4a8597b5bf9df0d99, type: 3}
+  - {fileID: 21300000, guid: b723a0caf32aa994b8d3b02a5243fe9b, type: 3}
+  - {fileID: 21300000, guid: a7c451182aea46c46a60c5cba2bedc0a, type: 3}
+  - {fileID: 21300000, guid: a34a9a53fb1ccb24d960d3443f83fcfb, type: 3}
+  locations: 00000000000000000100000001000000020000000200000003000000030000000400000004000000050000000500000006000000060000000700000007000000
   gameSceneName: DarkForest
   gameSceneName2: Memory
   gameOverPanel: {fileID: 1602540907}
-  timer: 30
-  expectedScore: 4
+  timer: 25
+  expectedScore: 8
   timerText: {fileID: 662674597}
   scoreText: {fileID: 377997614}
   attemptsText: {fileID: 1545981009}
@@ -1426,7 +1430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848875105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1716, y: -0.0789, z: 10}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 20.386717, y: 11.73488, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
