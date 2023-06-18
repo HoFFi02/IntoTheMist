@@ -11,7 +11,8 @@ public class NPC : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
     private int index = 0;
-    
+    public float positionX;
+    public float positionY;
 
     public string gameSceneName;
 
@@ -68,8 +69,8 @@ public class NPC : MonoBehaviour
         else
         {
             zeroText();
-            PlayerPrefs.SetFloat("Player x", -7f);
-            PlayerPrefs.SetFloat("Player y", 3.5f);
+            PlayerPrefs.SetFloat("Player x", positionX);
+            PlayerPrefs.SetFloat("Player y", positionY);
             SceneManager.LoadScene(gameSceneName);
         }
     }

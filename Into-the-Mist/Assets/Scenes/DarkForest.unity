@@ -62528,6 +62528,8 @@ MonoBehaviour:
   - 'After passing this stage, you must walk alone to your destination. '
   - Do you have any advice for me?
   - Remember what Dattadri told you.
+  positionX: 0
+  positionY: 0
   gameSceneName: 
   contButton: {fileID: 1581091578}
   wordSpeed: 0.06
@@ -139933,6 +139935,7 @@ GameObject:
   - component: {fileID: 1437002315}
   - component: {fileID: 1437002317}
   - component: {fileID: 1437002319}
+  - component: {fileID: 1437002320}
   m_Layer: 0
   m_Name: babayaga.png-1.png
   m_TagString: Untagged
@@ -140028,6 +140031,8 @@ MonoBehaviour:
   - Do you know, Baba Yaga, where do the snatched away children are taken to?
   - Go to my second sister, maybe she has something to do with it. Firstly though,
     you need to play my little game if you want to leave in peace.
+  positionX: -7
+  positionY: 3.5
   gameSceneName: Memory
   contButton: {fileID: 1421746683}
   wordSpeed: 0.06
@@ -140058,6 +140063,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
+--- !u!70 &1437002320
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437002314}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.012502597, y: -0.049127936}
+  m_Size: {x: 0.11906647, y: 0.16904351}
+  m_Direction: 0
 --- !u!1 &1437606282
 GameObject:
   m_ObjectHideFlags: 0
@@ -179700,6 +179721,8 @@ MonoBehaviour:
   - If you answer correctly, you can do what you want, if not, well.. I guess it's
     obvious..
   - Thank you, Baba Yaga.
+  positionX: 0
+  positionY: 0
   gameSceneName: 
   contButton: {fileID: 1486098764}
   wordSpeed: 0.06

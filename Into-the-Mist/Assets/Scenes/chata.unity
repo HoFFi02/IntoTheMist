@@ -795,7 +795,9 @@ MonoBehaviour:
   - 'If I manage to solve or do it, you let us go. If not, well.. I think that''s
     obvious.. '
   - 'Let me think.. '
-  - Agree. You have 50 seconds.
+  - Agree. You have 40 seconds.
+  positionX: 0
+  positionY: 0
   gameSceneName: Memory2
   contButton: {fileID: 0}
   wordSpeed: 0.06

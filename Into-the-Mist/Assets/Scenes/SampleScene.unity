@@ -6335,6 +6335,8 @@ MonoBehaviour:
     like this on my mind.
   - Good luck!
   - Thanks, see ya
+  positionX: -19
+  positionY: 1
   gameSceneName: 
   contButton: {fileID: 1549986460}
   wordSpeed: 0.06
@@ -9177,6 +9179,8 @@ MonoBehaviour:
   - Thanks! Bye
   - Wait, there's one thing I want to tell you. Remember that the road will be tough,
     but stick to it, go on.
+  positionX: -19
+  positionY: 1
   gameSceneName: 
   contButton: {fileID: 740385628}
   wordSpeed: 0.06
