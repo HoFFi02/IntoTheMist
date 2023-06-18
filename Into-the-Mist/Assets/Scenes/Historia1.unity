@@ -304,8 +304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -1.6671, y: -20.0066}
+  m_SizeDelta: {x: 390.0631, y: 90.0132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675156720
 MonoBehaviour:
@@ -327,9 +327,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'In every life there comes a moment when something calls us. It calls us
+  m_text: "In every life there comes a moment when something calls us. It calls us
     for an adventure. It calls us to surpass our limits, to lose ourselves, to go
-    into the unknown. '
+    into the unknown. \n\nChase led a quiet life. Earned money by being a hunter,
+    took care of his child (his wife disappeared long ago). Now the same thing has
+    happened to his son. This event became the impetus for change. Chase broke down,
+    he didn't want to go. You don't know his past, but I'll tell you in secret that
+    this is not the first time he's been in a situation like this. This time it's
+    different - Chase seeks out Dattadri - an old sage living in the village, hoping
+    that the man can help him at least a little bit on his way."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -418,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e66b7e2c08ef47fb8c349291457cf4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxY: 700
+  MaxY: 1300
   speed: 50
 --- !u!1 &1461113195
 GameObject:
