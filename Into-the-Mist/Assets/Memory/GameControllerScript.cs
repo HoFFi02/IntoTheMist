@@ -7,18 +7,21 @@ using UnityEngine.SceneManagement;
 public class GameControllerScript : MonoBehaviour
 {
 
-    public const int columns = 4;
-    public const int rows = 4;
+    public int columns;
+    public int rows;
 
-    public const float Xspace = 4f;
-    public const float Yspace = -2f;
+    public float Xspace;
+    public float Yspace;
 
     [SerializeField] private MainImageScript startObject;
     [SerializeField] private Sprite[] images;
-
+    
+    public int[] locations;
     public string gameSceneName;
+    public string gameSceneName2;
     public GameObject gameOverPanel;
-
+    public float timer;
+    public int expectedScore;
 
 
     private int[] Randomiser(int[] locations)
@@ -33,10 +36,10 @@ public class GameControllerScript : MonoBehaviour
         }
         return array;
     }
-
+    //= { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7}
     private void Start()
     {
-        int[] locations = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7};
+        
         locations = Randomiser(locations);
         
 
@@ -74,7 +77,7 @@ public class GameControllerScript : MonoBehaviour
 
     private IEnumerator StartTimer()
     {
-        float timer = 40f;
+        
         timerText = GameObject.Find("TimerText").GetComponent<TextMesh>();
 
         while (timer > 0)
@@ -134,7 +137,7 @@ public class GameControllerScript : MonoBehaviour
         {
             score++; // Add score
             scoreText.text = "Score: " + score;
-            if (score == 8)
+            if (score == expectedScore)
             {
                 GameOver(true);
             }
@@ -161,7 +164,7 @@ public class GameControllerScript : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("Memory");
+        SceneManager.LoadScene(gameSceneName2);
     }
 }
 

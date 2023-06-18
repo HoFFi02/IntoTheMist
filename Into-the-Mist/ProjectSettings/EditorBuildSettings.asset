@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/chata.unity
     guid: d695c9cda89284ad298e0c725c42b79b
+  - enabled: 1
+    path: Assets/Scenes/Memory2.unity
+    guid: 3d98b93aa60a02144bde812a0779a27b
   m_configObjects: {}

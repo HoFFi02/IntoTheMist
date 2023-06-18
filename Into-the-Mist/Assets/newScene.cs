@@ -21,7 +21,7 @@ public class newScene : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Chase1")
+        if (col.gameObject.name == "Chase")
         {
             SceneManager.LoadScene(NazwaSceny);
         }
